@@ -8,7 +8,7 @@
     // TODO needs unit testing
     static class Order
     {
-        // https://www.dotnetperls.com/issorted
+        // inspiration https://www.dotnetperls.com/issorted
         // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters
         // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
         public static bool IsSorted<T>(this T[] arr, bool desc = false) where T : IComparable<T>
